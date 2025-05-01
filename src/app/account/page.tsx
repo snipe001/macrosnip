@@ -55,7 +55,7 @@ export default function AccountPage() {
     {
       id: "purchase-002",
       purchaseDate: "2023-11-02",
-      product: products.find(p => p.id === "macro-csgo-1"),
+      product: products.find(p => p.id === "macro-csgo-1") || null,
       downloadLink: "#",
       version: "2.0.1",
       status: "active"
